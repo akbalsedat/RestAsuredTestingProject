@@ -30,4 +30,13 @@ public class ORDStests {
         response.then().statusCode(200); // to verify that status code is 200
 
     }
+
+    @Test
+    @DisplayName("Get list of all countries and verify status code is 200")
+    public void getAllCountries(){
+            given().
+                baseUri(BASE_URL).
+            when().
+                get("/countries").prettyPeek().then().statusCode(200);
+    }
 }
