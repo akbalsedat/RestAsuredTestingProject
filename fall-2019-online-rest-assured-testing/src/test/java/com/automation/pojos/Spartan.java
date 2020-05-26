@@ -36,7 +36,7 @@ public class Spartan {
         setPhoneNumber(phoneNumber);
     }
 
-    public Spartan() {
+    public Spartan() { // default constructor
 
     }
 

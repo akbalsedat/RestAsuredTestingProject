@@ -34,16 +34,16 @@ public class POJOPractice {
                 auth().
                 basic("admin", "admin").
                 when().
-                get("/spartans/{id}", 393).prettyPeek();
+                get("/spartans/{id}", 102).prettyPeek();
         // Get the body and map it to a Java object.
         // For JSON responses this requires that you have either Jackson or Gson
         //this is a deserialization
         Spartan spartan = response.as(Spartan.class);
         System.out.println(spartan);
 
-        assertEquals(393, spartan.getId());
-        assertEquals("Michael Scott", spartan.getName());
-        assertEquals("Male", spartan.getGender());
+        assertEquals(102, spartan.getId());
+        assertEquals("Sofia", spartan.getName());
+        assertEquals("Female", spartan.getGender());
 
 
         //deserialization: POJO <- JSON
