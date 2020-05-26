@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a93bae5-c6d4-4365-ba2d-23c289f45b32" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/day4/ORDSTestsDay4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day4/ORDSTestsDay4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/pojos/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/pojos/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/pojos/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/pojos/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/pojos/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/pojos/Spartan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/pojos/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day5/POJOPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590097832362</updated>
       <workItem from="1590097846802" duration="29020000" />
-      <workItem from="1590518700104" duration="2507000" />
+      <workItem from="1590518700104" duration="3103000" />
     </task>
     <task id="LOCAL-00001" summary="ORDStests java file added">
       <created>1590347196034</created>
@@ -193,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590520975824</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="gson dependency is added to pom.xml file">
+      <created>1590522670091</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590522670091</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,29 +220,30 @@
     <MESSAGE value="New test is added." />
     <MESSAGE value="configuration.properties, ConfigurationReader.java, and package4 is added" />
     <MESSAGE value="ORDSTestsDay4.java file is modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="ORDSTestsDay4.java file is modified" />
+    <MESSAGE value="gson dependency is added to pom.xml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="gson dependency is added to pom.xml file" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1590520974592">
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1590522669055">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590520974592" />
-    <state width="1478" height="339" key="GridCell.Tab.0.bottom" timestamp="1590521032184">
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590522669055" />
+    <state width="1478" height="231" key="GridCell.Tab.0.bottom" timestamp="1590522677367">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="339" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590521032184" />
-    <state width="1478" height="339" key="GridCell.Tab.0.center" timestamp="1590521032184">
+    <state width="1478" height="231" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590522677367" />
+    <state width="1478" height="231" key="GridCell.Tab.0.center" timestamp="1590522677367">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="339" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590521032184" />
-    <state width="1478" height="339" key="GridCell.Tab.0.left" timestamp="1590521032184">
+    <state width="1478" height="231" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590522677367" />
+    <state width="1478" height="231" key="GridCell.Tab.0.left" timestamp="1590522677366">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="339" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590521032184" />
-    <state width="1478" height="339" key="GridCell.Tab.0.right" timestamp="1590521032184">
+    <state width="1478" height="231" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590522677366" />
+    <state width="1478" height="231" key="GridCell.Tab.0.right" timestamp="1590522677367">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="339" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590521032184" />
+    <state width="1478" height="231" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590522677367" />
     <state width="1478" height="232" key="GridCell.Tab.1.bottom" timestamp="1590518652800">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
