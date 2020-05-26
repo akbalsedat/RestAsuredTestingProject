@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a93bae5-c6d4-4365-ba2d-23c289f45b32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day3/ORDSTestsDay3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day4/ORDSTestsDay4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/utilities/ConfigurationReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/day4/ORDSTestsDay4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day4/ORDSTestsDay4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,70 +41,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="JUnit.ORDSTestsDay3.verifyFirstRegion">
-    <configuration name="ExchangeRatesAPITests.getHistoryOfRates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fall-2019-online-rest-assured-testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.tests.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.automation.tests.day3" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day3.ExchangeRatesAPITests" />
-      <option name="METHOD_NAME" value="getHistoryOfRates" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExchangeRatesAPITests.getLatestRates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fall-2019-online-rest-assured-testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.tests.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.automation.tests.day3" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day3.ExchangeRatesAPITests" />
-      <option name="METHOD_NAME" value="getLatestRates" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ORDSTestsDay3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fall-2019-online-rest-assured-testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.tests.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.automation.tests.day3" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day3.ORDSTestsDay3" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ORDSTestsDay3.verifyEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fall-2019-online-rest-assured-testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.tests.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.automation.tests.day3" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day3.ORDSTestsDay3" />
-      <option name="METHOD_NAME" value="verifyEmployee" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ORDSTestsDay4.verifyPhoneNumber">
     <configuration name="ORDSTestsDay3.verifyFirstRegion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-online-rest-assured-testing" />
       <extension name="coverage">
@@ -123,13 +58,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ORDSTestsDay4.employeesTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fall-2019-online-rest-assured-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.tests.day4" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day4.ORDSTestsDay4" />
+      <option name="METHOD_NAME" value="employeesTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ORDSTestsDay4.testSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fall-2019-online-rest-assured-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.tests.day4" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day4.ORDSTestsDay4" />
+      <option name="METHOD_NAME" value="testSalary" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ORDSTestsDay4.verifyCountriesTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fall-2019-online-rest-assured-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.tests.day4" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day4.ORDSTestsDay4" />
+      <option name="METHOD_NAME" value="verifyCountriesTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ORDSTestsDay4.verifyPhoneNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fall-2019-online-rest-assured-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.tests.day4" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day4.ORDSTestsDay4" />
+      <option name="METHOD_NAME" value="verifyPhoneNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ORDSTestsDay4.verifyPhoneNumber" />
+        <item itemvalue="JUnit.ORDSTestsDay4.testSalary" />
+        <item itemvalue="JUnit.ORDSTestsDay4.verifyCountriesTest1" />
+        <item itemvalue="JUnit.ORDSTestsDay4.employeesTest1" />
         <item itemvalue="JUnit.ORDSTestsDay3.verifyFirstRegion" />
-        <item itemvalue="JUnit.ORDSTestsDay3.verifyEmployee" />
-        <item itemvalue="JUnit.ORDSTestsDay3" />
-        <item itemvalue="JUnit.ExchangeRatesAPITests.getHistoryOfRates" />
-        <item itemvalue="JUnit.ExchangeRatesAPITests.getLatestRates" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +143,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590097832362</updated>
       <workItem from="1590097846802" duration="29020000" />
-      <workItem from="1590518700104" duration="346000" />
+      <workItem from="1590518700104" duration="1792000" />
     </task>
     <task id="LOCAL-00001" summary="ORDStests java file added">
       <created>1590347196034</created>
@@ -181,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590365319498</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="configuration.properties, ConfigurationReader.java, and package4 is added">
+      <created>1590519129666</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590519129666</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,29 +198,30 @@
     <MESSAGE value="More Tests are added to ORDStest file" />
     <MESSAGE value="SpartanTests java is created" />
     <MESSAGE value="New test is added." />
-    <option name="LAST_COMMIT_MESSAGE" value="New test is added." />
+    <MESSAGE value="configuration.properties, ConfigurationReader.java, and package4 is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="configuration.properties, ConfigurationReader.java, and package4 is added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1590365318431">
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1590519126560">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590365318431" />
-    <state width="1478" height="232" key="GridCell.Tab.0.bottom" timestamp="1590518652799">
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590519126560" />
+    <state width="1478" height="136" key="GridCell.Tab.0.bottom" timestamp="1590520878721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="232" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590518652799" />
-    <state width="1478" height="232" key="GridCell.Tab.0.center" timestamp="1590518652799">
+    <state width="1478" height="136" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590520878721" />
+    <state width="1478" height="136" key="GridCell.Tab.0.center" timestamp="1590520878721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="232" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590518652799" />
-    <state width="1478" height="232" key="GridCell.Tab.0.left" timestamp="1590518652798">
+    <state width="1478" height="136" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590520878721" />
+    <state width="1478" height="136" key="GridCell.Tab.0.left" timestamp="1590520878721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="232" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590518652798" />
-    <state width="1478" height="232" key="GridCell.Tab.0.right" timestamp="1590518652799">
+    <state width="1478" height="136" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590520878721" />
+    <state width="1478" height="136" key="GridCell.Tab.0.right" timestamp="1590520878721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="232" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590518652799" />
+    <state width="1478" height="136" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590520878721" />
     <state width="1478" height="232" key="GridCell.Tab.1.bottom" timestamp="1590518652800">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
