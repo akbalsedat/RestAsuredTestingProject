@@ -7,6 +7,8 @@ import io.restassured.response.Response;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+import java.util.Base64;
 import java.util.List;
 
 import static io.restassured.RestAssured.*;
@@ -29,6 +31,12 @@ public class POJOPracticeWithORDS {
 
         List<Link> link = employee.getLinks();
         System.out.println(link);
+    }
+
+    public static void main(String[] args) {
+        byte[] decode = Base64.getDecoder().decode("bG9sOnNlY3VyZQ==");
+        System.out.println("decode.length = " + decode.length);
+        System.out.println(new String(decode));
     }
 
 }
