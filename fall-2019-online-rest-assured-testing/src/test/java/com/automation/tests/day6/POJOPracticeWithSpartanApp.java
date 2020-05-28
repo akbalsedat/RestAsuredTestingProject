@@ -18,6 +18,7 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 public class POJOPracticeWithSpartanApp {
+    private final String API_KEY = "$2a$10$PKKBI/ZmoJkLGYiYbSqE9On9gvkQfmfoUizHZP0B58Ha4FhbAxR2a";
 
     @BeforeAll
     public static void beforeAll() {
@@ -72,7 +73,7 @@ public class POJOPracticeWithSpartanApp {
     @DisplayName("Retrieve exiting user, update his name and verify that name was updated successfully.")
     public void updateSpartanTest() {
         int userToUpdate = 258;
-        String name = "Jerrid";
+        String name = "Doug";
 
         //HTTP PUT request to update exiting record, for example exiting spartan.
         //PUT - requires to provide ALL parameters in body
@@ -161,4 +162,5 @@ public class POJOPracticeWithSpartanApp {
                 then().
                 assertThat().statusCode(200).body("name", is("Nursultan"));
     }
+
 }
