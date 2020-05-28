@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a93bae5-c6d4-4365-ba2d-23c289f45b32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/BearerAuthentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/BearerAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day8/BearerAuthentication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="JUnit.BearerAuthentication.loginTest">
+  <component name="RunManager" selected="JUnit.BearerAuthentication.getRoomsTest2">
     <configuration name="APIKey.authenticationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-online-rest-assured-testing" />
       <extension name="coverage">
@@ -58,17 +57,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="APIKey.getMovieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BearerAuthentication.getRoomsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-online-rest-assured-testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.tests.day7.*" />
+          <option name="PATTERN" value="com.automation.tests.day8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.automation.tests.day7" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day7.APIKey" />
-      <option name="METHOD_NAME" value="getMovieTest" />
+      <option name="PACKAGE_NAME" value="com.automation.tests.day8" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day8.BearerAuthentication" />
+      <option name="METHOD_NAME" value="getRoomsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BearerAuthentication.getRoomsTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fall-2019-online-rest-assured-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.day8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.tests.day8" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day8.BearerAuthentication" />
+      <option name="METHOD_NAME" value="getRoomsTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,28 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="POJOPracticeWithSpartanApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fall-2019-online-rest-assured-testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.tests.day6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.automation.tests.day6" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day6.POJOPracticeWithSpartanApp" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BearerAuthentication.getRoomsTest2" />
         <item itemvalue="JUnit.BearerAuthentication.loginTest" />
+        <item itemvalue="JUnit.BearerAuthentication.getRoomsTest" />
         <item itemvalue="JUnit.POJOPracticeWithPreschool" />
         <item itemvalue="JUnit.APIKey.authenticationTest" />
-        <item itemvalue="JUnit.APIKey.getMovieTest" />
-        <item itemvalue="JUnit.POJOPracticeWithSpartanApp" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590097832362</updated>
       <workItem from="1590097846802" duration="29020000" />
-      <workItem from="1590518700104" duration="22888000" />
+      <workItem from="1590518700104" duration="24946000" />
     </task>
     <task id="LOCAL-00001" summary="ORDStests java file added">
       <created>1590347196034</created>
@@ -241,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590631014010</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="day8 package with BearerAuthentication file is added.">
+      <created>1590694229442</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1590694229442</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,45 +268,46 @@
     <MESSAGE value="New examples on PUT, PATCH are added." />
     <MESSAGE value="APIKey class is added." />
     <MESSAGE value="Some minor changes are added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Some minor changes are added." />
+    <MESSAGE value="day8 package with BearerAuthentication file is added." />
+    <option name="LAST_COMMIT_MESSAGE" value="day8 package with BearerAuthentication file is added." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1590631011906">
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1590694228568">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590631011906" />
-    <state width="1478" height="138" key="GridCell.Tab.0.bottom" timestamp="1590631176928">
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590694228568" />
+    <state width="1478" height="317" key="GridCell.Tab.0.bottom" timestamp="1590695253818">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="138" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590631176928" />
-    <state width="1478" height="138" key="GridCell.Tab.0.center" timestamp="1590631176928">
+    <state width="1478" height="317" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590695253818" />
+    <state width="1478" height="317" key="GridCell.Tab.0.center" timestamp="1590695253818">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="138" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590631176928" />
-    <state width="1478" height="138" key="GridCell.Tab.0.left" timestamp="1590631176928">
+    <state width="1478" height="317" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590695253818" />
+    <state width="1478" height="317" key="GridCell.Tab.0.left" timestamp="1590695253818">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="138" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590631176928" />
-    <state width="1478" height="138" key="GridCell.Tab.0.right" timestamp="1590631176928">
+    <state width="1478" height="317" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590695253818" />
+    <state width="1478" height="317" key="GridCell.Tab.0.right" timestamp="1590695253818">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="138" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590631176928" />
-    <state width="1478" height="232" key="GridCell.Tab.1.bottom" timestamp="1590540800052">
+    <state width="1478" height="317" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590695253818" />
+    <state width="1478" height="232" key="GridCell.Tab.1.bottom" timestamp="1590694701838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="232" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590540800052" />
-    <state width="1478" height="232" key="GridCell.Tab.1.center" timestamp="1590540800051">
+    <state width="1478" height="232" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590694701838" />
+    <state width="1478" height="232" key="GridCell.Tab.1.center" timestamp="1590694701838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="232" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590540800051" />
-    <state width="1478" height="232" key="GridCell.Tab.1.left" timestamp="1590540800051">
+    <state width="1478" height="232" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590694701838" />
+    <state width="1478" height="232" key="GridCell.Tab.1.left" timestamp="1590694701838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="232" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590540800051" />
-    <state width="1478" height="232" key="GridCell.Tab.1.right" timestamp="1590540800052">
+    <state width="1478" height="232" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590694701838" />
+    <state width="1478" height="232" key="GridCell.Tab.1.right" timestamp="1590694701838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="232" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590540800052" />
+    <state width="1478" height="232" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590694701838" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1590350616672">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
