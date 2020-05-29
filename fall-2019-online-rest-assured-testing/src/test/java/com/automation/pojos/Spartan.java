@@ -21,19 +21,19 @@ public class Spartan {
     private String name;
     private String gender;
     @SerializedName("phone")
-    private long phoneNumber;
+    private long phone;
 
     public Spartan(String name, String gender, long phoneNumber) {
         this.name = name;
         this.gender = gender;
-        setPhoneNumber(phoneNumber);
+        setPhone(phoneNumber);
     }
 
     public Spartan(int id, String name, String gender, long phoneNumber) {
         this.id = id;
         this.name = name;
         this.gender = gender;
-        setPhoneNumber(phoneNumber);
+        setPhone(phoneNumber);
     }
 
     public Spartan() { // default constructor
@@ -60,15 +60,15 @@ public class Spartan {
         this.gender = gender;
     }
 
-    public long getPhoneNumber() {
-        return phoneNumber;
+    public long getPhone() {
+        return phone;
     }
 
-    public void setPhoneNumber(long phoneNumber) {
-        if (String.valueOf(phoneNumber).length() < 10) {
+    public void setPhone(long phone) {
+        if (String.valueOf(phone).length() < 10) {
             throw new RuntimeException("Phone number is too short!");
         }
-        this.phoneNumber = phoneNumber;
+        this.phone = phone;
     }
 
     @Override
@@ -77,7 +77,7 @@ public class Spartan {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", gender='" + gender + '\'' +
-                ", phoneNumber=" + phoneNumber +
+                ", phoneNumber=" + phone +
                 '}';
     }
 

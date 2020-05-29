@@ -2,6 +2,7 @@ package com.automation.tests.day6;
 
 import com.automation.pojos.Spartan;
 import com.automation.utilities.ConfigurationReader;
+import com.automation.utilities.DistinctNameGenerator;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -121,11 +122,11 @@ public class POJOPracticeWithSpartanApp {
     public void patchUserTest1() {
         //PATCH - partial update of existing record
 
-        int userId = 21;//user to update, make user with this id exist
+        int userId = 340;//user to update, make user with this id exist
 
-        //let's pu the code to take random user
+        //let's put the code to take random user
         //get all spartans
-        Response response0 = given().accept(ContentType.JSON).when().get("/spartans").prettyPeek();
+        Response response0 = given().accept(ContentType.JSON).when().get("/spartans");
         //I can save them all in the array list
         List<Spartan> allSpartans = response0.jsonPath().getList("", Spartan.class);
         //Spartan.class - data type of collection
@@ -140,11 +141,12 @@ public class POJOPracticeWithSpartanApp {
         System.out.println("NAME BEFORE: " + allSpartans.get(randomNum).getName());
 
         userId = randomUserID;//to assign random user id
-        System.out.println(allSpartans);
 
         Map<String, String> update = new HashMap<>();
-        update.put("name", "Nursultan");
-        //this is a request to update user
+        String generatedName = DistinctNameGenerator.randomIdentifier();
+        update.put("name", generatedName);
+
+        // This is a request to update user
         Response response = given().
                 contentType(ContentType.JSON).
                 body(update).
@@ -160,7 +162,6 @@ public class POJOPracticeWithSpartanApp {
                 when().
                 get("/spartans/{id}", userId).prettyPeek().
                 then().
-                assertThat().statusCode(200).body("name", is("Nursultan"));
+                assertThat().statusCode(200).body("name", is(generatedName));
     }
-
 }

@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8a93bae5-c6d4-4365-ba2d-23c289f45b32" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../RestAssuredDemo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/utilities/DistinctNameGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spartan_schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/spartan_schema.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/day9/SchemaValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day9/SchemaValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/pojos/Spartan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/pojos/Spartan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/day6/POJOPracticeWithSpartanApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day6/POJOPracticeWithSpartanApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="JUnit.SchemaValidation.schemaValidationListTest">
+  <component name="RunManager" selected="JUnit.POJOPracticeWithSpartanApp.patchUserTest1">
     <configuration name="BadSSL.badSSLCertificateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-online-rest-assured-testing" />
       <extension name="coverage">
@@ -75,17 +76,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BearerAuthentication.getRoomsTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="POJOPracticeWithSpartanApp.patchUserTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-online-rest-assured-testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.tests.day8.*" />
+          <option name="PATTERN" value="com.automation.tests.day6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.automation.tests.day8" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day8.BearerAuthentication" />
-      <option name="METHOD_NAME" value="getRoomsTest2" />
+      <option name="PACKAGE_NAME" value="com.automation.tests.day6" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day6.POJOPracticeWithSpartanApp" />
+      <option name="METHOD_NAME" value="patchUserTest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.POJOPracticeWithSpartanApp.patchUserTest1" />
         <item itemvalue="JUnit.SchemaValidation.schemaValidationListTest" />
         <item itemvalue="JUnit.SchemaValidation.schemaValidationTest" />
         <item itemvalue="JUnit.BadSSL.badSSLCertificateTest" />
         <item itemvalue="JUnit.BearerAuthentication.getAllTeamsTest" />
-        <item itemvalue="JUnit.BearerAuthentication.getRoomsTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +148,8 @@
       <workItem from="1590518700104" duration="31973000" />
       <workItem from="1590745386888" duration="2549000" />
       <workItem from="1590750808909" duration="8000" />
+      <workItem from="1590760288577" duration="112000" />
+      <workItem from="1590781965381" duration="1932000" />
     </task>
     <task id="LOCAL-00001" summary="ORDStests java file added">
       <created>1590347196034</created>
@@ -312,26 +315,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="370" y="16" key="#SchemaValidation.schemaValidation/0.0.1536.824@0.0.1536.824" timestamp="1590716409011" />
+    <state x="350" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590782155049">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="350" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1590782155049" />
     <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1590717080491">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="268" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590717080491" />
-    <state width="1478" height="293" key="GridCell.Tab.0.bottom" timestamp="1590750715221">
+    <state width="1478" height="120" key="GridCell.Tab.0.bottom" timestamp="1590783679937">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="293" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590750715221" />
-    <state width="1478" height="293" key="GridCell.Tab.0.center" timestamp="1590750715221">
+    <state width="1478" height="120" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590783679936" />
+    <state width="1478" height="120" key="GridCell.Tab.0.center" timestamp="1590783679936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="293" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590750715221" />
-    <state width="1478" height="293" key="GridCell.Tab.0.left" timestamp="1590750715221">
+    <state width="1478" height="120" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590783679936" />
+    <state width="1478" height="120" key="GridCell.Tab.0.left" timestamp="1590783679936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="293" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590750715221" />
-    <state width="1478" height="293" key="GridCell.Tab.0.right" timestamp="1590750715221">
+    <state width="1478" height="120" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590783679936" />
+    <state width="1478" height="120" key="GridCell.Tab.0.right" timestamp="1590783679936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="293" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590750715221" />
+    <state width="1478" height="120" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590783679936" />
     <state width="1478" height="232" key="GridCell.Tab.1.bottom" timestamp="1590721043404">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
