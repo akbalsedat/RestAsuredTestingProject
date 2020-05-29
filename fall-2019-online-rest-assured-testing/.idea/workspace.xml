@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a93bae5-c6d4-4365-ba2d-23c289f45b32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spartan_schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day9/BadSSL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/day9/SchemaValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="JUnit.BadSSL.badSSLCertificateTest">
+  <component name="RunManager" selected="JUnit.SchemaValidation.schemaValidationTest">
     <configuration name="BadSSL.badSSLCertificateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-online-rest-assured-testing" />
       <extension name="coverage">
@@ -70,22 +68,6 @@
       <option name="PACKAGE_NAME" value="com.automation.tests.day8" />
       <option name="MAIN_CLASS_NAME" value="com.automation.tests.day8.BearerAuthentication" />
       <option name="METHOD_NAME" value="getAllTeamsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BearerAuthentication.getRoomsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fall-2019-online-rest-assured-testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.tests.day8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.automation.tests.day8" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day8.BearerAuthentication" />
-      <option name="METHOD_NAME" value="getRoomsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,13 +105,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SchemaValidation.schemaValidationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fall-2019-online-rest-assured-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.day9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.tests.day9" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.day9.SchemaValidation" />
+      <option name="METHOD_NAME" value="schemaValidationTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SchemaValidation.schemaValidationTest" />
         <item itemvalue="JUnit.BadSSL.badSSLCertificateTest" />
         <item itemvalue="JUnit.BearerAuthentication.getAllTeamsTest" />
         <item itemvalue="JUnit.BearerAuthentication.getRoomsTest2" />
         <item itemvalue="JUnit.BearerAuthentication.loginTest" />
-        <item itemvalue="JUnit.BearerAuthentication.getRoomsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +142,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590097832362</updated>
       <workItem from="1590097846802" duration="29020000" />
-      <workItem from="1590518700104" duration="29704000" />
+      <workItem from="1590518700104" duration="30657000" />
     </task>
     <task id="LOCAL-00001" summary="ORDStests java file added">
       <created>1590347196034</created>
@@ -265,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590696860082</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="spartan_schema.json file is created.">
+      <created>1590716202739</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1590716202739</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,29 +292,34 @@
     <MESSAGE value="Some minor changes are added." />
     <MESSAGE value="day8 package with BearerAuthentication file is added." />
     <MESSAGE value="more tests are added to this class." />
-    <option name="LAST_COMMIT_MESSAGE" value="more tests are added to this class." />
+    <MESSAGE value="spartan_schema.json file is created." />
+    <option name="LAST_COMMIT_MESSAGE" value="spartan_schema.json file is created." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1590696859157">
+    <state x="370" y="16" key="#SchemaValidation.schemaValidation" timestamp="1590716409011">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590696859157" />
-    <state width="1478" height="292" key="GridCell.Tab.0.bottom" timestamp="1590715766215">
+    <state x="370" y="16" key="#SchemaValidation.schemaValidation/0.0.1536.824@0.0.1536.824" timestamp="1590716409011" />
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1590716201726">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="292" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590715766215" />
-    <state width="1478" height="292" key="GridCell.Tab.0.center" timestamp="1590715766215">
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590716201726" />
+    <state width="1478" height="292" key="GridCell.Tab.0.bottom" timestamp="1590716802410">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="292" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590715766215" />
-    <state width="1478" height="292" key="GridCell.Tab.0.left" timestamp="1590715766215">
+    <state width="1478" height="292" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590716802410" />
+    <state width="1478" height="292" key="GridCell.Tab.0.center" timestamp="1590716802410">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="292" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590715766215" />
-    <state width="1478" height="292" key="GridCell.Tab.0.right" timestamp="1590715766215">
+    <state width="1478" height="292" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590716802410" />
+    <state width="1478" height="292" key="GridCell.Tab.0.left" timestamp="1590716802410">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="292" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590715766215" />
+    <state width="1478" height="292" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590716802410" />
+    <state width="1478" height="292" key="GridCell.Tab.0.right" timestamp="1590716802410">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="292" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590716802410" />
     <state width="1478" height="232" key="GridCell.Tab.1.bottom" timestamp="1590710009589">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
