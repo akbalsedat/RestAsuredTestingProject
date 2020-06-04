@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a93bae5-c6d4-4365-ba2d-23c289f45b32" name="Default Changelist" comment="SchemaValidation file is created and added.">
+      <change afterPath="$PROJECT_DIR$/../API-query-param-and-jsonpath-homework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-query-param-and-jsonpath-homework/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-query-param-and-jsonpath-homework/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-query-param-and-jsonpath-homework/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-query-param-and-jsonpath-homework/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-query-param-and-jsonpath-homework/API-query-param-and-jsonpath-homework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-query-param-and-jsonpath-homework/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-query-param-and-jsonpath-homework/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookItAutomationFall2019" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +157,7 @@
       <workItem from="1590745386888" duration="2549000" />
       <workItem from="1590750808909" duration="8000" />
       <workItem from="1590760288577" duration="112000" />
-      <workItem from="1590781965381" duration="4878000" />
+      <workItem from="1590781965381" duration="14090000" />
     </task>
     <task id="LOCAL-00001" summary="ORDStests java file added">
       <created>1590347196034</created>
@@ -330,22 +339,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="268" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590784189154" />
-    <state width="1478" height="351" key="GridCell.Tab.0.bottom" timestamp="1590784168417">
+    <state width="1478" height="351" key="GridCell.Tab.0.bottom" timestamp="1591287314151">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="351" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590784168417" />
-    <state width="1478" height="351" key="GridCell.Tab.0.center" timestamp="1590784168417">
+    <state width="1478" height="351" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591287314151" />
+    <state width="1478" height="351" key="GridCell.Tab.0.center" timestamp="1591287314151">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="351" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590784168417" />
-    <state width="1478" height="351" key="GridCell.Tab.0.left" timestamp="1590784168417">
+    <state width="1478" height="351" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591287314151" />
+    <state width="1478" height="351" key="GridCell.Tab.0.left" timestamp="1591287314151">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="351" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590784168417" />
-    <state width="1478" height="351" key="GridCell.Tab.0.right" timestamp="1590784168417">
+    <state width="1478" height="351" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591287314151" />
+    <state width="1478" height="351" key="GridCell.Tab.0.right" timestamp="1591287314151">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="351" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590784168417" />
+    <state width="1478" height="351" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591287314151" />
     <state width="1478" height="232" key="GridCell.Tab.1.bottom" timestamp="1590721043404">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -370,10 +379,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="594" y="237" key="export.test.results/0.0.1536.824@0.0.1536.824" timestamp="1590350756072" />
-    <state x="209" y="73" key="new project wizard" timestamp="1590750640957">
+    <state x="209" y="73" key="new project wizard" timestamp="1591126012239">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1590750640957" />
+    <state x="209" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1591126012239" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590442467933">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
